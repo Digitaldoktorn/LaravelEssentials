@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f577dee-d8f5-4c79-81ba-c663a3fe5e66" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/laravel-essentials.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel-essentials.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +148,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583685996043</updated>
-      <workItem from="1583686007414" duration="4029000" />
+      <workItem from="1583686007414" duration="4524000" />
     </task>
     <servers />
   </component>
