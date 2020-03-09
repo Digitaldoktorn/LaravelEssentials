@@ -3,14 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="1f577dee-d8f5-4c79-81ba-c663a3fe5e66" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrate.log" beforeDir="false" afterPath="$PROJECT_DIR$/migrate.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
@@ -148,7 +150,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583685996043</updated>
-      <workItem from="1583686007414" duration="4524000" />
+      <workItem from="1583686007414" duration="4870000" />
+      <workItem from="1583738037392" duration="23000" />
+      <workItem from="1583783536912" duration="519000" />
+      <workItem from="1583784754189" duration="425000" />
     </task>
     <servers />
   </component>
@@ -156,26 +161,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1829" height="542" key="GridCell.Tab.0.bottom" timestamp="1583686277116">
+    <state width="1829" height="542" key="GridCell.Tab.0.bottom" timestamp="1583701367778">
       <screen x="39" y="23" width="1881" height="1057" />
     </state>
-    <state width="1829" height="542" key="GridCell.Tab.0.bottom/3840.351.1280.777/39.23.1881.1057/1920.23.1920.1057@39.23.1881.1057" timestamp="1583686277116" />
-    <state width="1829" height="542" key="GridCell.Tab.0.center" timestamp="1583686277115">
+    <state width="1829" height="542" key="GridCell.Tab.0.bottom/3840.351.1280.777/39.23.1881.1057/1920.23.1920.1057@39.23.1881.1057" timestamp="1583701367778" />
+    <state width="1829" height="542" key="GridCell.Tab.0.center" timestamp="1583701367777">
       <screen x="39" y="23" width="1881" height="1057" />
     </state>
-    <state width="1829" height="542" key="GridCell.Tab.0.center/3840.351.1280.777/39.23.1881.1057/1920.23.1920.1057@39.23.1881.1057" timestamp="1583686277115" />
-    <state width="1829" height="542" key="GridCell.Tab.0.left" timestamp="1583686277113">
+    <state width="1829" height="542" key="GridCell.Tab.0.center/3840.351.1280.777/39.23.1881.1057/1920.23.1920.1057@39.23.1881.1057" timestamp="1583701367777" />
+    <state width="1829" height="542" key="GridCell.Tab.0.left" timestamp="1583701367775">
       <screen x="39" y="23" width="1881" height="1057" />
     </state>
-    <state width="1829" height="542" key="GridCell.Tab.0.left/3840.351.1280.777/39.23.1881.1057/1920.23.1920.1057@39.23.1881.1057" timestamp="1583686277113" />
-    <state width="1829" height="542" key="GridCell.Tab.0.right" timestamp="1583686277116">
+    <state width="1829" height="542" key="GridCell.Tab.0.left/3840.351.1280.777/39.23.1881.1057/1920.23.1920.1057@39.23.1881.1057" timestamp="1583701367775" />
+    <state width="1829" height="542" key="GridCell.Tab.0.right" timestamp="1583701367777">
       <screen x="39" y="23" width="1881" height="1057" />
     </state>
-    <state width="1829" height="542" key="GridCell.Tab.0.right/3840.351.1280.777/39.23.1881.1057/1920.23.1920.1057@39.23.1881.1057" timestamp="1583686277116" />
+    <state width="1829" height="542" key="GridCell.Tab.0.right/3840.351.1280.777/39.23.1881.1057/1920.23.1920.1057@39.23.1881.1057" timestamp="1583701367777" />
     <state x="796" y="469" key="NewPhpFileDialog" timestamp="1583695804636">
       <screen x="38" y="23" width="1882" height="1057" />
     </state>
     <state x="796" y="469" key="NewPhpFileDialog/3840.351.1280.777/38.23.1882.1057/1920.23.1920.1057@38.23.1882.1057" timestamp="1583695804636" />
+    <state x="433" y="228" key="Vcs.Push.Dialog.v2" timestamp="1583701097062">
+      <screen x="39" y="23" width="1881" height="1057" />
+    </state>
+    <state x="433" y="228" key="Vcs.Push.Dialog.v2/3840.351.1280.777/39.23.1881.1057/1920.23.1920.1057@39.23.1881.1057" timestamp="1583701097062" />
     <state x="560" y="48" width="838" height="1032" key="search.everywhere.popup" timestamp="1583694549774">
       <screen x="39" y="23" width="1881" height="1057" />
     </state>
