@@ -24,3 +24,13 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/test', function() { return "Goodbye";});
 
 Route::get('/rooms', 'ShowRoomsController');
+
+//Route model binding - this is same as line 36
+//Route::get('/bookings', 'BookingsController@index');
+//Route::get('/bookings/create', 'BookingController@create');
+//Route::post('/bookings', 'BookingController@store');
+//Route::get('/bookings/{booking}', 'BookingController@show');
+//Route::get('/bookings/{booking}/edit', 'BookingController@edit');
+//Route::put('/bookings/{booking}', 'BookingController@update');
+//Route::delete('/bookings/{booking}', 'BookingController@destroy');
+Route::resource('bookings', 'BookingController');
