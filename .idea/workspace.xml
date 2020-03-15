@@ -4,6 +4,7 @@
     <list default="true" id="1f577dee-d8f5-4c79-81ba-c663a3fe5e66" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BookingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BookingController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/bookings/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/bookings/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +165,7 @@
       <workItem from="1584084136908" duration="30000" />
       <workItem from="1584207434819" duration="2750000" />
       <workItem from="1584263807500" duration="3435000" />
-      <workItem from="1584287336576" duration="3863000" />
+      <workItem from="1584287336576" duration="4454000" />
     </task>
     <servers />
   </component>
@@ -198,10 +199,10 @@
     <state x="795" y="469" key="NewPhpFileDialog/3840.351.1280.777/37.23.1883.1057/1920.23.1920.1057@37.23.1883.1057" timestamp="1584289414706" />
     <state x="796" y="469" key="NewPhpFileDialog/3840.351.1280.777/38.23.1882.1057/1920.23.1920.1057@38.23.1882.1057" timestamp="1584266019402" />
     <state x="797" y="469" key="NewPhpFileDialog/3840.351.1280.777/39.23.1881.1057/1920.23.1920.1057@39.23.1881.1057" timestamp="1583866397871" />
-    <state x="432" y="228" key="Vcs.Push.Dialog.v2" timestamp="1584300713523">
+    <state x="432" y="228" key="Vcs.Push.Dialog.v2" timestamp="1584301266604">
       <screen x="38" y="23" width="1882" height="1057" />
     </state>
-    <state x="432" y="228" key="Vcs.Push.Dialog.v2/3840.351.1280.777/38.23.1882.1057/1920.23.1920.1057@38.23.1882.1057" timestamp="1584300713523" />
+    <state x="432" y="228" key="Vcs.Push.Dialog.v2/3840.351.1280.777/38.23.1882.1057/1920.23.1920.1057@38.23.1882.1057" timestamp="1584301266604" />
     <state x="433" y="228" key="Vcs.Push.Dialog.v2/3840.351.1280.777/39.23.1881.1057/1920.23.1920.1057@39.23.1881.1057" timestamp="1583958495966" />
     <state x="560" y="48" width="838" height="1032" key="search.everywhere.popup" timestamp="1583694549774">
       <screen x="39" y="23" width="1881" height="1057" />
