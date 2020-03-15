@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Booking;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+
 class BookingController extends Controller
 {
     /**
@@ -37,7 +38,7 @@ class BookingController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
+     * @param \Illuminate\Http\Request $request
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
@@ -61,7 +62,7 @@ class BookingController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Booking  $booking
+     * @param \App\Booking $booking
      * @return \Illuminate\Http\Response
      */
     public function show(Booking $booking)
@@ -73,7 +74,7 @@ class BookingController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Booking  $booking
+     * @param \App\Booking $booking
      * @return \Illuminate\Http\Response
      */
     public function edit(Booking $booking)
@@ -91,19 +92,34 @@ class BookingController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Booking  $booking
+     * @param \Illuminate\Http\Request $request
+     * @param \App\Booking $booking
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, Booking $booking)
     {
-        //
+        DB::table('bookings')
+            ->where('id', $booking->id)
+            ->update([
+                'room_id' => $request->input('room_id'),
+                'start' => $request->input('start'),
+                'end' => $request->input('end'),
+                'is_reservation' => $request->input('is_reservation'),
+                'is_paid' => $request->input('is_paid'),
+                'notes' => $request->input('notes'),
+            ]);
+        DB::table('bookings_users')
+            ->where('booking_id', $booking->id)
+            ->update([
+            'user_id' => $request->input('user_id'),
+        ]);
+        return redirect()->action('BookingController@index');
     }
 
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Booking  $booking
+     * @param \App\Booking $booking
      * @return \Illuminate\Http\Response
      */
     public function destroy(Booking $booking)
